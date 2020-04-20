@@ -23,7 +23,7 @@
 	}
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
 	.upButton__link {
 		display: none;
 	}
@@ -39,3 +39,9 @@
 		padding: 0px;
 	}
 }
+
+@media screen and (max-width: 450px) {
+	header {
+		font-family: sans-serif;
+	}
+}	
