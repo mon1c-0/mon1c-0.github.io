@@ -130,6 +130,10 @@ header {
 	max-width: 100%;
 }
 
+.preview__base {
+	max-width: 100%;
+}
+
 .flexible-img__base {
 	text-align: center;
 	margin-top: 15px;
