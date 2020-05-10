@@ -97,9 +97,10 @@ header {
 }
 
 .subheader {
-	padding: 15px;
-	margin: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background: #000;
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -126,6 +127,10 @@ header {
 
 .flexible-img {
 	max-width: 100%;
+}
+
+.day_word {
+	text-align: right;
 }
 
 .preview {
@@ -164,7 +169,6 @@ header {
 
 .continue__reading-link:hover {
 	border-color: #000;
-	border-width: 2px;
 	color: #000;
 	background-color: #fff;
 }
@@ -173,10 +177,26 @@ header {
 	padding: 10px;
 }
 
-.views__icon {
+.article__footer {
+	margin-bottom: 10px;
+}
+
+.view_icon {
+	display: inline;
 	width: 32px;
 	height: 32px;
-	background-image: url('static/system/views.png');
+	float: left;
+	text-align: center;
+}
+
+.clearFix {
+	clear: left;
+}
+
+.article__views-count {
+	margin-top: 5px;
+	margin-left: 5px;
+	float: left;
 }
 
 aside {
