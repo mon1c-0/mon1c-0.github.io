@@ -21,6 +21,10 @@
 	.upButton__link {
 		display: none;
 	}
+	.subheader__category {
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
 }
 
 @media screen and (max-width: 1600px) {
