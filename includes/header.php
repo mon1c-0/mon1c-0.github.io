@@ -3,12 +3,12 @@ $categories = mysqli_query($connection, "SELECT * FROM `article_categories`");
 ?>
 
 <header id="header">
-	<div class="header__title">	
-		<h1 class="title"><?php echo $config['title']; ?></h1><h4 class="subtitle"><?php echo $config['subtitle']; ?></h4><div class="day_word"><?php echo $config['day_word']; ?></div>
+	<div class="header__title">
+		<a href="/" class="header_link"><h1 class="title"><?php echo $config['title']; ?></h1><h4 class="subtitle"><?php echo $config['subtitle']; ?></h4><div class="day_word"><?php echo $config['day_word']; ?></a></div>
 	</div>
 
 	<nav class="subheader">
-	<?php 
+	<?php
 		while( $cat = mysqli_fetch_assoc($categories) )
 		{
 	?>

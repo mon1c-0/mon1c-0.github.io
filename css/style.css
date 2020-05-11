@@ -1,10 +1,14 @@
 @font-face {
-	font-family: Istok Web;
+	font-family: Istok;
 	src: url(../fonts/IstokWeb-Regular.ttf);
 }
 
 * {
 	margin: 0;
+}
+
+#orphus {
+	display: none;
 }
 
 footer {
@@ -78,7 +82,7 @@ html {
 
 header {
 	margin-top: 0px;
-	font-family: Istok Web;
+	font-family: Istok;
 }
 
 .header__title {
@@ -89,6 +93,11 @@ header {
 .subtitle {
 	margin-top: 0;
 	margin-bottom: 20px;
+}
+
+.header_link {
+	text-decoration: none;
+	color: #000;
 }
 
 .title {
@@ -122,7 +131,7 @@ header {
 }
 
 .article__block {
-	width: 69.23076923076923%;	
+	width: 69.23076923076923%;
 }
 
 .flexible-img {
@@ -260,6 +269,7 @@ aside {
 
 .pagination__fastlink {
 	text-align: center;
+	color: blue;
 }
 
 .pagination__fastlink:hover {
@@ -285,6 +295,24 @@ aside {
 	text-decoration: none;
 }
 
+.pagination__gomain {
+	text-align: center;
+	border-radius: 25px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: transparent;
+	padding: 3px 10px;
+	background: #000;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.pagination__gomain:hover {
+	color: #000;
+	border-color: #000;
+	background: #fff;
+}
+
 .paghref{
 	transition: 0.3s;
 }
@@ -300,12 +328,11 @@ aside {
 }
 
 .pagination__next:hover {
-	padding-left: 40px;	
+	padding-left: 40px;
 }
 
 .paghref {
 	text-decoration: none;
-	color: blue;
 }
 
 footer {
@@ -323,4 +350,52 @@ footer {
 
 .footer__hr {
 	margin-bottom: 45px;
+}
+
+a.day_word {
+	text-decoration: none;
+	color: #000;
+}
+
+a.day_word:hover {
+	text-decoration: underline;
+}
+
+.orphusSumbit {
+	transition: 0.3s;
+	font-family: Istok;
+	margin-right: 15px;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+.orphusSumbit:hover {
+	color: #fff;
+	background: #000;
+}
+
+.orphusInfo {
+	text-align: center;
+	font-size: 26px;
+}
+
+.orphusBlock {
+	font-family: Istok;
+	font-size: 26px;
+}
+
+.oprhusMainBlock {
+	background: rgb(255,255,255);
+	background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(218,218,218,1) 49%, rgba(175,175,175,1) 100%);
+	background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(218,218,218,1) 49%, rgba(175,175,175,1) 100%);
+	background: linear-gradient(rgba(255,255,255,1) 0%, rgba(218,218,218,1) 49%, rgba(175,175,175,1) 100%);
+}
+
+.oprhusTitle {
+	font-family: Istok;
+	font-size: 26px;
+}
+
+.orphusERROR {
+	color: red;
 }
